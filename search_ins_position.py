@@ -12,3 +12,8 @@ def searchInsert(self, nums: list[int], target: int) -> int:
                 right = mid - 1
                 
         return left
+
+print(searchInsert(nums, 5)) 
+print(searchInsert(nums, 2)) 
+print(searchInsert(nums, 7)) 
+print(searchInsert(nums, 0))
